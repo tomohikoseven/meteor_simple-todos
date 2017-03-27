@@ -4,6 +4,7 @@ import { Tasks } from '../api/tasks.js';
  
 //Tasks = new Mongo.Collection("tasks");
 
+import './task.js';
 import './body.html';
 
 Template.body.helpers({
